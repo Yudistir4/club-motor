@@ -31,11 +31,11 @@ const Home = () => {
         {config.home.carousel.map((data) => (
           <SwiperSlide key={data.title} className="h-full relative w-full">
             <img className="h-full brightness-50" src={data.img} alt="" />
-            <div className="text-white absolute z-10 top-1/2 -translate-y-1/2 left-20 w-full">
-              <h2 className="font-serif text-2xl md:text-6xl md:w-1/2 lg:w-1/3 ">
+            <div className="text-white absolute z-10 top-1/2 -translate-y-1/2 left-20 w-1/2 md:w-full">
+              <h2 className="font-serif text-lg font-bold sm:text-2xl md:text-6xl md:w-1/2 lg:w-1/3 ">
                 {data.title}
               </h2>
-              <p className="mt-3 md:mt-10 text-lg md:text-xl md:w-1/2 lg:w-1/3">
+              <p className="mt-3 md:mt-10 text-base   sm:text-lg md:text-xl md:w-1/2 lg:w-1/3">
                 {data.subtitle}
               </p>
             </div>
@@ -75,11 +75,11 @@ const Home = () => {
             {config.home.member.subtitle}
           </h3>
         </div>
-        <div className="flex gap-10 text-center">
-          <div className="w-1/2 text-5xl border font-serif text-gray-600 p-5 sm:p-10">
+        <div className="flex flex-col sm:flex-row gap-10 text-center">
+          <div className="w-full sm:w-1/2 text-5xl border font-serif text-gray-600 p-5 sm:p-10">
             {config.home.member.anggota}
           </div>
-          <div className="w-1/2 text-5xl border font-serif text-gray-600 p-5 sm:p-10">
+          <div className="w-full sm:w-1/2 text-5xl border font-serif text-gray-600 p-5 sm:p-10">
             {config.home.member.pengurus}
           </div>
           {/* <div className="text-5xl">{config.home.member.pengurus}</div> */}

@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-center  border-b fixed z-20 bg-white px-10 top-0">
       <div className="flex justify-between w-full max-w-6xl py-6 items-center">
-        <img src={config.logo} className="w-[150px]" alt="" />
-        <ul className="font-semibold text-xl gap-5  md:gap-10 xl:gap-20 flex flex-row">
+        <img src={config.logo} className="w-16 sm:w-[150px]" alt="" />
+        <ul className="font-semibold text-base sm:text-xl gap-5  md:gap-10 xl:gap-20 flex flex-row">
           <NavLink
             to="/home"
             className={({ isActive }) =>
