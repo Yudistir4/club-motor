@@ -44,6 +44,7 @@ const Contact = () => {
         >
           {config.contact.leave.form.map((data) => (
             <input
+              key={data.name}
               type="text"
               name={data.name}
               placeholder={data.placeholder}
