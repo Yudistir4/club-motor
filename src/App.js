@@ -4,6 +4,7 @@ import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
       <div className="mt-[122px]">
         <Outlet />
       </div>
+      <Footer />
     </div>
   );
 };

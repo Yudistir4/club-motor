@@ -88,7 +88,7 @@ const Home = () => {
 
       {/* Tentang Kami */}
       <div className="bg-emerald-800/5 ">
-        <div className="max-w-6xl m-auto lg:flex-row w-full p-10 md:p-20 xl:px-0   flex flex-col gap-20 mb-20">
+        <div className="max-w-6xl m-auto lg:flex-row w-full p-10 md:p-20 xl:px-0   flex flex-col gap-20 mb-10">
           <div className="relative mr-7 lg:w-1/2">
             <img
               className="rounded-xl h-full object-cover"
