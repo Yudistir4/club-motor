@@ -4,7 +4,7 @@ import { config } from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-center  border-b sticky px-10">
+    <div className="w-full flex justify-center  border-b fixed z-20 bg-white px-10 top-0">
       <div className="flex justify-between w-full max-w-6xl py-6 items-center">
         <img src={config.logo} className="w-[150px]" alt="" />
         <ul className="font-semibold text-xl gap-5  md:gap-10 xl:gap-20 flex flex-row">
@@ -22,7 +22,7 @@ const Navbar = () => {
             to="/gallery"
             className={({ isActive }) =>
               isActive
-                ? "border-b-blue-500"
+                ? "text-blue-500 border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
                 : "border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
             }
           >
@@ -32,7 +32,7 @@ const Navbar = () => {
             to="/news"
             className={({ isActive }) =>
               isActive
-                ? "border-b-blue-500"
+                ? "text-blue-500 border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
                 : "border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
             }
           >
@@ -42,7 +42,7 @@ const Navbar = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "border-b-blue-500"
+                ? "text-blue-500 border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
                 : "border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
             }
           >
