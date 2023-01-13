@@ -17,7 +17,7 @@ const Layout = () => {
   return (
     <div>
       <Navbar />
-      <div className="mt-[122px]">
+      <div className="mt-[97px]">
         <Outlet />
       </div>
       <Footer />
