@@ -8,7 +8,7 @@ import { AiFillYoutube } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="flex items-center flex-col gap-5 p-10">
-      <img className="" src={config.logo} alt="" />
+      <img className="w-20 sm:w-24" src={config.logo} alt="" />
       <p className="max-w-lg text-lg text-center">
         Motor Club Indonesia merupakan Induk organisasi dari Club-club Motor se
         Indonesia.
