@@ -13,6 +13,11 @@ import gallery6 from "../assets/gallery6.webp";
 import gallery7 from "../assets/gallery7.webp";
 import gallery8 from "../assets/gallery8.webp";
 import gallery9 from "../assets/gallery9.webp";
+import map from "../assets/map.webp";
+import { AiOutlinePhone } from "react-icons/ai";
+import { IoLocationSharp } from "react-icons/io5";
+import { IoTimeSharp } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
 
 export const config = {
   logo,
@@ -69,6 +74,41 @@ export const config = {
       gallery7,
       gallery8,
       gallery9,
+    ],
+  },
+  contact: {
+    map,
+    leave: {
+      title: "Leave Message",
+      subtitle: "Kami akan segera menjawab pesan anda.",
+      form: [
+        {
+          name: "name",
+          placeholder: "Nama anda...",
+        },
+        {
+          name: "email",
+          placeholder: "Email anda...",
+        },
+        {
+          name: "pesan",
+          placeholder: "Pesan anda...",
+        },
+      ],
+    },
+    info: [
+      {
+        icon: <AiOutlinePhone />,
+        title: "Phone",
+        subtitle: "+628281 82818 1029",
+      },
+      {
+        icon: <IoLocationSharp />,
+        title: "Address",
+        subtitle: "Jl. A. Natasukarya No.30 Subang, Jawa Barat. 41214",
+      },
+      { icon: <IoTimeSharp />, title: "Open time", subtitle: "Everyday Open" },
+      { icon: <MdEmail />, title: "Email", subtitle: "mci@mail.com" },
     ],
   },
 };

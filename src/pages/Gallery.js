@@ -11,7 +11,7 @@ const Gallery = () => {
           <img
             key={i}
             className={`hover:scale-105 transition-all cursor-pointer aspect-square object-cover ${
-              i == 0 ? "sm:col-span-2 md:col-span-1" : ""
+              i === 0 ? "sm:col-span-2 md:col-span-1" : ""
             }`}
             src={img}
             alt=""
