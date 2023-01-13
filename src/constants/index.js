@@ -4,6 +4,15 @@ import slide2 from "../assets/slide2.webp";
 import slide3 from "../assets/slide3.webp";
 import sejarah from "../assets/sejarah.webp";
 import tentangKami from "../assets/tentang-kami.webp";
+import gallery1 from "../assets/gallery1.webp";
+import gallery2 from "../assets/gallery2.webp";
+import gallery3 from "../assets/gallery3.webp";
+import gallery4 from "../assets/gallery4.webp";
+import gallery5 from "../assets/gallery5.webp";
+import gallery6 from "../assets/gallery6.webp";
+import gallery7 from "../assets/gallery7.webp";
+import gallery8 from "../assets/gallery8.webp";
+import gallery9 from "../assets/gallery9.webp";
 
 export const config = {
   logo,
@@ -37,7 +46,7 @@ export const config = {
       title: "MEMBER",
       subtitle: "Jumlah anggota dan pengurus",
       anggota: "1920 Anggota",
-      pengurus: "22 Pengurus Daerah",
+      pengurus: "22 Pengurus",
     },
     tentang: {
       title: "Tentang Kami",
@@ -45,5 +54,21 @@ export const config = {
         "Honda Tiger Club Indonesia, Adalah wadah organisasi klub sepeda motor Honda Tiger di Indonesia. Organisasi Honda Tiger Club Indonesia (HTCI) dideklarasikan di Bandung pada tanggal 10 Oktober 2004 dengan dihadiri oleh sejumlah club dari seluruh tanah air, hingga saat ini Honda Tiger Club Indonesia (HTCI) terdiri atas Pengurus Pusat (PP), 20 Pengurus Daerah (Pengda) dan 247 klub yang tersebar di seluruh kawasan Indonesia.",
       img: tentangKami,
     },
+  },
+
+  gallery: {
+    title: "Gallery",
+    subtitle: "Dokumentasi Event Motor Club Indonesia",
+    img: [
+      gallery1,
+      gallery2,
+      gallery3,
+      gallery4,
+      gallery5,
+      gallery6,
+      gallery7,
+      gallery8,
+      gallery9,
+    ],
   },
 };

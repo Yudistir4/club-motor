@@ -4,12 +4,12 @@ import { config } from "../constants";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-center  border-b sticky">
+    <div className="w-full flex justify-center  border-b sticky px-10">
       <div className="flex justify-between w-full max-w-6xl py-6 items-center">
         <img src={config.logo} className="w-[150px]" alt="" />
-        <ul className="font-semibold text-xl gap-20 flex flex-row">
+        <ul className="font-semibold text-xl gap-5  md:gap-10 xl:gap-20 flex flex-row">
           <NavLink
-            to="/"
+            to="/home"
             className={({ isActive }) =>
               isActive
                 ? "text-blue-500 border-y-4 transition-all border-transparent hover:border-b-blue-500 cursor-pointer"
